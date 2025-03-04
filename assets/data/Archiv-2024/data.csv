@@ -1,0 +1,376 @@
+﻿id,jahr,alter,kategoriealter,geschlecht,bsz,bszkat,bszkat2,griffweitetext,Griffweite,verzicht,verzicht-kat,sorgen
+1,2021,30,6,Maennlich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt ganz
+2,2021,15,2,Maennlich,4h-5h,5,25,Nein,4,Stimmt eher ,2,Stimmt gar nicht
+3,2021,14,2,Maennlich,4h-5h,5,25,Ja,1,Stimmt nicht,4,Stimmt eher
+4,2021,15,2,Maennlich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher
+5,2021,32,6,Maennlich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt ganz
+6,2021,16,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher
+7,2021,16,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+8,2021,16,3,Maennlich,4h-5h,5,25,eher Nein,3,Stimmt,1,Stimmt eher
+9,2021,18,4,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt,1,Stimmt eher nicht
+10,2021,18,4,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
+11,2021,18,4,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher nicht
+12,2021,16,3,Weiblich,4h-5h,5,25,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+13,2021,21,5,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher nicht
+14,2021,17,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+15,2021,20,5,Weiblich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+16,2021,16,3,Weiblich,2h-3h,3,9,eher Nein,3,Stimmt,1,Stimmt eher nicht
+17,2021,17,3,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt,1,Stimmt eher
+18,2021,16,3,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt,1,Stimmt eher nicht
+19,2021,19,4,Weiblich,4h-5h,5,25,eher Ja,2,Stimmt,1,Stimmt eher
+20,2021,16,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher
+21,2021,18,4,Weiblich,3h-4h,4,16,Nein,4,Stimmt nicht,4,Stimmt eher
+22,2021,20,5,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher
+23,2021,17,3,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher
+24,2021,42,6,Maennlich,weniger als 1h,1,1,eher Nein,3,Stimmt eher ,2,Stimmt eher
+25,2021,18,4,Maennlich,2h-3h,3,9,Ja,1,Stimmt nicht,4,Stimmt gar nicht
+26,2021,16,3,Maennlich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher nicht
+27,2021,17,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher
+28,2021,18,4,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+29,2021,16,3,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+30,2021,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+31,2021,17,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+32,2021,17,3,Weiblich,1h-2h,2,4,eher Nein,3,Stimmt,1,Stimmt eher
+33,2021,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt eher
+34,2021,17,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+35,2021,16,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+36,2021,16,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt gar nicht
+37,2021,15,2,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+38,2021,16,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+39,2021,17,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt ganz
+40,2021,19,4,Maennlich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt gar nicht
+41,2021,16,3,Weiblich,3h-4h,4,16,Nein,4,Stimmt nicht,4,Stimmt eher nicht
+42,2021,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+43,2021,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+44,2021,17,3,Weiblich,Mehr als 5h,6,36,eher Ja,2,Stimmt,1,Stimmt eher
+45,2021,17,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+46,2021,15,2,Maennlich,4h-5h,5,25,eher Ja,2,Stimmt,1,Stimmt eher
+47,2021,16,3,Weiblich,Mehr als 5h,6,36,eher Nein,3,Stimmt eher ,2,Stimmt ganz
+48,2021,16,3,Non-Binaer,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+49,2021,22,5,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt eher
+50,2021,14,2,Weiblich,Mehr als 5h,6,36,eher Ja,2,Stimmt eher ,2,Stimmt gar nicht
+51,2021,16,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher
+52,2021,17,3,Maennlich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher nicht
+53,2021,18,4,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt gar nicht
+54,2021,17,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+55,2021,51,6,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt ganz
+56,2021,55,6,Maennlich,weniger als 1h,1,1,eher Nein,3,Stimmt eher nicht,3,Stimmt eher
+57,2021,16,3,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+58,2021,15,2,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher ,2,Stimmt gar nicht
+59,2021,16,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher nicht
+60,2021,16,3,Weiblich,1h-2h,2,4,Nein,4,Stimmt eher ,2,Stimmt eher
+61,2021,15,2,Weiblich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+62,2021,17,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher
+63,2021,15,2,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt ganz
+64,2021,14,2,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt gar nicht
+65,2021,47,6,Maennlich,1h-2h,2,4,Nein,4,Stimmt eher nicht,3,Stimmt eher
+66,2021,15,2,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+67,2021,14,2,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher nicht
+68,2021,39,6,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt eher nicht,3,Stimmt eher
+69,2021,15,2,Weiblich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher nicht
+70,2021,49,6,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt,1,Stimmt eher
+71,2021,18,4,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher
+72,2021,15,2,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+73,2021,27,5,Weiblich,weniger als 1h,1,1,eher Ja,2,Stimmt,1,Stimmt eher
+74,2021,29,5,Weiblich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt eher
+75,2021,15,2,Weiblich,1h-2h,2,4,eher Ja,2,Stimmt eher ,2,Stimmt ganz
+76,2021,46,6,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+77,2021,16,3,Maennlich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+78,2021,19,4,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt ganz
+79,2021,50,6,Weiblich,2h-3h,3,9,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+80,2021,50,6,Weiblich,weniger als 1h,1,1,Ja,1,Stimmt eher nicht,3,Stimmt ganz
+81,2021,52,6,Weiblich,1h-2h,2,4,eher Ja,2,Stimmt eher nicht,3,Stimmt ganz
+82,2021,53,6,Weiblich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher nicht
+83,2021,50,6,Maennlich,1h-2h,2,4,Ja,1,Stimmt nicht,4,Stimmt eher
+84,2021,38,6,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher
+85,2021,15,2,Weiblich,4h-5h,5,25,Nein,4,Stimmt,1,Stimmt eher
+86,2021,41,6,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+87,2021,25,5,Weiblich,weniger als 1h,1,1,eher Ja,2,Stimmt,1,Stimmt eher
+88,2021,42,6,Weiblich,1h-2h,2,4,eher Nein,3,Stimmt eher ,2,Stimmt eher
+89,2021,43,6,Weiblich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt ganz
+90,2021,46,6,Maennlich,weniger als 1h,1,1,Ja,1,Stimmt eher ,2,Stimmt eher
+91,2021,47,6,Weiblich,1h-2h,2,4,Nein,4,Stimmt eher nicht,3,Stimmt ganz
+92,2021,52,6,Weiblich,weniger als 1h,1,1,Ja,1,Stimmt,1,Stimmt eher
+93,2021,17,3,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt,1,Stimmt ganz
+94,2021,29,5,Weiblich,1h-2h,2,4,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+95,2021,56,6,Maennlich,weniger als 1h,1,1,Nein,4,Stimmt eher ,2,Stimmt eher
+96,2021,26,5,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher ,2,Stimmt eher
+97,2021,16,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher nicht
+98,2021,15,2,Weiblich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt gar nicht
+99,2021,16,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt ganz
+100,2021,15,2,Maennlich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher nicht
+101,2021,16,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+102,2021,15,2,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+103,2021,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
+104,2021,16,3,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher nicht,3,Stimmt gar nicht
+105,2021,15,2,Maennlich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher nicht
+106,2021,16,3,Weiblich,Mehr als 5h,6,36,eher Nein,3,Stimmt,1,Stimmt eher
+107,2021,16,3,Weiblich,4h-5h,5,25,Nein,4,Stimmt eher nicht,3,Stimmt ganz
+108,2021,16,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+109,2021,16,3,Maennlich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+110,2021,15,2,Weiblich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+111,2021,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher nicht
+112,2021,16,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+113,2021,15,2,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+114,2021,15,2,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
+115,2021,16,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher nicht
+116,2021,16,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher nicht
+117,2021,15,2,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+118,2021,15,2,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher
+119,2021,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+120,2021,15,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt eher
+121,2021,14,2,Weiblich,1h-2h,2,4,eher Nein,3,Stimmt,1,Stimmt eher nicht
+122,2021,15,2,Weiblich,Mehr als 5h,6,36,eher Ja,2,Stimmt,1,Stimmt gar nicht
+123,2021,17,3,Maennlich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt eher nicht
+124,2021,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+125,2021,14,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher
+126,2022,15,2,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+127,2022,16,3,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+128,2022,16,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher nicht
+129,2022,16,3,Maennlich,3h-4h,4,16,Nein,4,Stimmt eher nicht,3,Stimmt eher
+130,2022,17,3,Moechte nicht antworten,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher
+131,2022,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher nicht
+132,2022,16,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher
+133,2022,17,3,Weiblich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher nicht
+134,2022,15,2,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher
+135,2022,15,2,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+136,2022,17,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt ganz
+137,2022,19,4,Non-Binaer,4h-5h,5,25,eher Ja,2,Stimmt nicht,4,Stimmt eher nicht
+138,2022,16,3,Non-Binaer,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+139,2022,15,2,Weiblich,4h-5h,5,25,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+140,2022,14,2,Non-Binaer,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+141,2022,14,2,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher
+142,2022,15,2,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher
+143,2022,14,2,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher
+144,2022,15,2,Weiblich,3h-4h,4,16,eher Nein,3,Stimmt eher nicht,3,Stimmt eher
+145,2022,56,6,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt,1,Stimmt eher
+146,2022,15,2,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt gar nicht
+147,2022,15,2,Maennlich,Mehr als 5h,6,36,Nein,4,Stimmt eher ,2,Stimmt eher
+148,2022,15,2,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+149,2022,15,2,Maennlich,1h-2h,2,4,eher Nein,3,Stimmt,1,Stimmt eher nicht
+150,2022,15,2,Moechte nicht antworten,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher
+151,2022,15,2,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher
+152,2022,15,2,Weiblich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher
+153,2022,14,2,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt gar nicht
+154,2022,15,2,Weiblich,2h-3h,3,9,eher Nein,3,Stimmt,1,Stimmt eher
+155,2022,15,2,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+156,2022,15,2,Maennlich,1h-2h,2,4,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+157,2022,15,2,Weiblich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher
+158,2022,15,2,Maennlich,1h-2h,2,4,Ja,1,Stimmt eher ,2,Stimmt eher
+159,2022,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt ganz
+160,2022,16,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+161,2022,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+162,2022,15,2,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+163,2022,14,2,Weiblich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher nicht
+164,2022,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher
+165,2022,16,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt ganz
+166,2022,16,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+167,2022,16,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+168,2022,16,3,Maennlich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher nicht
+169,2022,16,3,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+170,2022,15,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt eher nicht
+171,2022,16,3,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+172,2022,16,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+173,2022,35,6,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher
+174,2022,17,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher
+175,2022,16,3,Maennlich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher
+176,2022,17,3,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt nicht,4,Stimmt gar nicht
+177,2022,16,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
+178,2022,16,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt ganz
+179,2022,17,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt gar nicht
+180,2022,16,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+181,2022,18,4,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher ,2,Stimmt eher
+182,2022,17,3,Non-Binaer,3h-4h,4,16,eher Nein,3,Stimmt eher nicht,3,Stimmt eher
+183,2022,16,3,Non-Binaer,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+184,2022,16,3,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+185,2022,16,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher
+186,2022,17,3,Maennlich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher
+187,2022,16,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+188,2022,16,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt ganz
+189,2022,16,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+190,2022,15,2,Weiblich,weniger als 1h,1,1,Nein,4,Stimmt,1,Stimmt eher
+191,2022,17,3,Weiblich,4h-5h,5,25,eher Nein,3,Stimmt eher nicht,3,Stimmt eher nicht
+192,2022,15,2,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher nicht,3,Stimmt eher
+193,2022,55,6,Maennlich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+194,2022,24,5,Weiblich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher nicht
+195,2022,16,3,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher
+196,2022,14,2,Maennlich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt ganz
+197,2022,49,6,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt gar nicht
+198,2023,14,2,Moechte nicht antworten,1h-2h,2,4,eher Ja,2,Stimmt eher nicht,3,Stimmt ganz
+199,2023,15,2,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+200,2023,15,2,Weiblich,1h-2h,2,4,eher Nein,3,Stimmt,1,Stimmt eher nicht
+201,2023,15,2,Maennlich,2h-3h,3,9,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+202,2023,14,2,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+203,2023,15,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt eher nicht,3,Stimmt eher
+204,2023,16,3,Maennlich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+205,2023,15,2,Maennlich,2h-3h,3,9,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+206,2023,32,6,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher
+207,2023,15,2,Maennlich,4h-5h,5,25,eher Ja,2,Stimmt eher nicht,3,Stimmt gar nicht
+208,2023,15,2,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+209,2023,15,2,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt gar nicht
+210,2023,14,2,Weiblich,weniger als 1h,1,1,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+211,2023,15,2,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+212,2023,14,2,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+213,2023,15,2,Maennlich,1h-2h,2,4,Nein,4,Stimmt eher nicht,3,Stimmt eher
+214,2023,15,2,Maennlich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher
+215,2023,14,2,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+216,2023,14,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+217,2023,16,3,Non-Binaer,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher nicht
+218,2023,17,3,Weiblich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher
+219,2023,17,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt eher ,2,Stimmt ganz
+220,2023,17,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher nicht
+221,2023,16,3,Weiblich,3h-4h,4,16,eher Nein,3,Stimmt nicht,4,Stimmt eher nicht
+222,2023,16,3,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+223,2023,16,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher
+224,2023,16,3,Weiblich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt gar nicht
+225,2023,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher
+226,2023,16,3,Maennlich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher nicht
+227,2023,16,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+228,2023,17,3,Moechte nicht antworten,1h-2h,2,4,eher Ja,2,Stimmt eher nicht,3,Stimmt ganz
+229,2023,17,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher nicht
+230,2023,16,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt eher
+231,2023,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher
+232,2023,17,3,Maennlich,4h-5h,5,25,eher Nein,3,Stimmt,1,Stimmt eher
+233,2023,17,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+234,2023,18,4,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+235,2023,16,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher
+236,2023,17,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt eher
+237,2023,17,3,Non-Binaer,Mehr als 5h,6,36,eher Ja,2,Stimmt eher ,2,Stimmt eher
+238,2023,17,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+239,2023,17,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+240,2023,16,3,Weiblich,4h-5h,5,25,Nein,4,Stimmt,1,Stimmt eher
+241,2023,17,3,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher nicht
+242,2023,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+243,2023,16,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher nicht
+244,2023,16,3,Weiblich,4h-5h,5,25,eher Ja,2,Stimmt,1,Stimmt eher
+245,2023,18,4,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+246,2023,17,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+247,2023,16,3,Maennlich,4h-5h,5,25,eher Ja,2,Stimmt eher nicht,3,Stimmt gar nicht
+248,2023,15,2,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+249,2023,16,3,Weiblich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+250,2023,16,3,Maennlich,4h-5h,5,25,Nein,4,Stimmt eher ,2,Stimmt eher
+251,2023,17,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+252,2023,16,3,Maennlich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt eher nicht
+253,2023,19,4,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt ganz
+254,2023,16,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+255,2023,18,4,Moechte nicht antworten,1h-2h,2,4,Ja,1,Stimmt eher ,2,Stimmt eher
+256,2023,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+257,2023,20,5,Weiblich,weniger als 1h,1,1,eher Ja,2,Stimmt,1,Stimmt eher
+258,2023,17,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+259,2023,17,3,Non-Binaer,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher
+260,2023,17,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher nicht
+261,2023,16,3,Maennlich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher nicht
+262,2023,16,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher nicht
+263,2023,15,2,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+264,2023,16,3,Maennlich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher
+265,2023,16,3,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+266,2023,16,3,Maennlich,4h-5h,5,25,Nein,4,Stimmt,1,Stimmt ganz
+267,2023,16,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+268,2023,18,4,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+269,2023,16,3,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+270,2023,19,4,Weiblich,1h-2h,2,4,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+271,2023,16,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt eher ,2,Stimmt eher
+272,2023,17,3,Non-Binaer,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher nicht
+273,2023,17,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+274,2023,16,3,Maennlich,4h-5h,5,25,Nein,4,Stimmt eher nicht,3,Stimmt eher
+275,2023,16,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt gar nicht
+276,2023,14,2,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher nicht
+277,2023,15,2,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt,1,Stimmt ganz
+278,2023,16,3,Maennlich,3h-4h,4,16,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+279,2023,19,4,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher nicht,3,Stimmt ganz
+280,2023,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+281,2023,16,3,Weiblich,Mehr als 5h,6,36,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+282,2023,16,3,Weiblich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt eher
+283,2023,15,2,Weiblich,Mehr als 5h,6,36,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+284,2023,17,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher
+285,2023,18,4,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+286,2024,17,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt eher ,2,Stimmt eher
+287,2024,15,2,Maennlich,4h-5h,5,25,eher Ja,2,Stimmt,1,Stimmt eher nicht
+288,2024,33,6,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher
+289,2024,16,3,Weiblich,4h-5h,5,25,eher Ja,2,Stimmt,1,Stimmt eher
+290,2024,14,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher
+291,2024,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+292,2024,15,2,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
+293,2024,15,2,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+294,2024,15,2,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+295,2024,16,3,Maennlich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+296,2024,14,2,Non-Binaer,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+297,2024,15,2,Maennlich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt eher
+298,2024,15,2,Maennlich,1h-2h,2,4,Ja,1,Stimmt,1,Stimmt ganz
+299,2024,14,2,Weiblich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt eher
+300,2024,16,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher nicht
+301,2024,15,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt eher ,2,Stimmt eher
+302,2024,17,3,Maennlich,weniger als 1h,1,1,Nein,4,Stimmt,1,Stimmt ganz
+303,2024,18,4,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher ,2,Stimmt eher
+304,2024,18,4,Weiblich,4h-5h,5,25,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+305,2024,17,3,Maennlich,4h-5h,5,25,eher Nein,3,Stimmt,1,Stimmt eher nicht
+306,2024,16,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+307,2024,17,3,Weiblich,3h-4h,4,16,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+308,2024,16,3,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt,1,Stimmt eher
+309,2024,16,3,Maennlich,3h-4h,4,16,Nein,4,Stimmt eher nicht,3,Stimmt eher nicht
+310,2024,16,3,Maennlich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+311,2024,16,3,Weiblich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt eher nicht
+312,2024,16,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher nicht
+313,2024,16,3,Maennlich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt eher nicht
+314,2024,44,6,Maennlich,2h-3h,3,9,Ja,1,Stimmt,1,Stimmt eher nicht
+315,2024,15,2,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher
+316,2024,15,2,Weiblich,1h-2h,2,4,Nein,4,Stimmt eher ,2,Stimmt ganz
+317,2024,16,3,Weiblich,2h-3h,3,9,eher Nein,3,Stimmt eher ,2,Stimmt eher nicht
+318,2024,16,3,Maennlich,weniger als 1h,1,1,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+319,2024,17,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+320,2024,18,4,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt,1,Stimmt eher
+321,2024,16,3,Weiblich,3h-4h,4,16,eher Nein,3,Stimmt nicht,4,Stimmt eher nicht
+322,2024,18,4,Maennlich,1h-2h,2,4,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+323,2024,17,3,Weiblich,2h-3h,3,9,Nein,4,Stimmt,1,Stimmt gar nicht
+324,2024,17,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher
+325,2024,17,3,Maennlich,4h-5h,5,25,eher Nein,3,Stimmt nicht,4,Stimmt eher
+326,2024,17,3,Maennlich,weniger als 1h,1,1,Nein,4,Stimmt,1,Stimmt gar nicht
+327,2024,17,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+328,2024,17,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+329,2024,18,4,Weiblich,2h-3h,3,9,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+330,2024,17,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt eher
+331,2024,16,3,Weiblich,Mehr als 5h,6,36,eher Ja,2,Stimmt eher nicht,3,Stimmt eher
+332,2024,16,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+333,2024,16,3,Maennlich,2h-3h,3,9,eher Nein,3,Stimmt eher nicht,3,Stimmt ganz
+334,2024,16,3,Maennlich,1h-2h,2,4,Nein,4,Stimmt,1,Stimmt gar nicht
+335,2024,16,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt nicht,4,Stimmt eher nicht
+336,2024,17,3,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+337,2024,16,3,Weiblich,1h-2h,2,4,eher Ja,2,Stimmt,1,Stimmt eher
+338,2024,16,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt nicht,4,Stimmt eher
+339,2024,17,3,Non-Binaer,3h-4h,4,16,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+340,2024,17,3,Maennlich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher nicht
+341,2024,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt gar nicht
+342,2024,15,2,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher
+343,2024,15,2,Weiblich,4h-5h,5,25,Ja,1,Stimmt,1,Stimmt gar nicht
+344,2024,16,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+345,2024,15,2,Weiblich,3h-4h,4,16,Nein,4,Stimmt,1,Stimmt eher
+346,2024,16,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher nicht,3,Stimmt eher
+347,2024,16,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher
+348,2024,16,3,Weiblich,1h-2h,2,4,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+349,2024,16,3,Weiblich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+350,2024,17,3,Weiblich,2h-3h,3,9,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+351,2024,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt ganz
+352,2024,18,4,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher
+353,2024,17,3,Maennlich,4h-5h,5,25,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+354,2024,17,3,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher nicht,3,Stimmt eher
+355,2024,16,3,Weiblich,3h-4h,4,16,eher Nein,3,Stimmt eher nicht,3,Stimmt eher
+356,2024,17,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher
+357,2024,20,5,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt eher ,2,Stimmt eher
+358,2024,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+359,2024,15,2,Weiblich,3h-4h,4,16,Ja,1,Stimmt eher nicht,3,Stimmt eher
+360,2024,17,3,Maennlich,Mehr als 5h,6,36,eher Ja,2,Stimmt eher ,2,Stimmt eher
+361,2024,16,3,Maennlich,4h-5h,5,25,Nein,4,Stimmt,1,Stimmt ganz
+362,2024,16,3,Maennlich,weniger als 1h,1,1,Nein,4,Stimmt,1,Stimmt eher
+363,2024,17,3,Maennlich,1h-2h,2,4,Ja,1,Stimmt eher ,2,Stimmt eher
+364,2024,15,2,Weiblich,2h-3h,3,9,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+365,2024,17,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher nicht,3,Stimmt eher nicht
+366,2024,17,3,Maennlich,3h-4h,4,16,eher Nein,3,Stimmt,1,Stimmt eher nicht
+367,2024,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt eher ,2,Stimmt eher nicht
+368,2024,16,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt eher nicht,3,Stimmt eher nicht
+369,2024,16,3,Maennlich,4h-5h,5,25,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+370,2024,16,3,Weiblich,3h-4h,4,16,Ja,1,Stimmt,1,Stimmt eher nicht
+371,2024,16,3,Weiblich,3h-4h,4,16,eher Ja,2,Stimmt eher ,2,Stimmt eher nicht
+372,2024,16,3,Weiblich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
+373,2024,21,5,Maennlich,Mehr als 5h,6,36,Nein,4,Stimmt eher ,2,Stimmt eher nicht
+374,2024,16,3,Maennlich,2h-3h,3,9,eher Ja,2,Stimmt,1,Stimmt eher
+375,2024,17,3,Maennlich,Mehr als 5h,6,36,Ja,1,Stimmt,1,Stimmt eher nicht
