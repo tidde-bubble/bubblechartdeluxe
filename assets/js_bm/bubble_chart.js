@@ -185,7 +185,7 @@ var sorgenCenters = { // Center locations of the bubbles.
 var cookiesCenters = { // Center locations of the bubbles.
     1: { x: 400, y: height / 2 },
     2: { x: 600, y: height / 2 },
-    3: { x: 800, y: height / 1.9 }
+    3: { x: 800, y: height / 2}
   
   };
 
@@ -194,6 +194,40 @@ var cookiesCenters = { // Center locations of the bubbles.
     'Ich lösche meine Cookies immer': 225,
     'Ich lösche meine Cookies ab und zu': 550,
     'Ich lösche meine Cookies nie': 900
+  };
+  // siebter Button: Sorgenbarometer-Alter  
+ 
+var sorgenalterCenters = { // Center locations of the bubbles.
+    1: { x: 300, y: height / 2 },
+    2: { x: 500, y: height / 2 },
+    3: { x: 600, y: height / 2 },
+    4: { x: 800, y: height / 2 }
+  };
+
+  var sorgenalterTitleX = { // X locations of the year titles.
+    'jung-sorgen': 175,
+    'jung-keinesorgen': 550,
+    'alt-keinesorgen': 800,
+    'alt-sorgen': 975
+  };
+  // Achter Button: Geld bezahlen  
+ 
+var geldbezahlenCenters = { // Center locations of the bubbles.
+    0: { x: 280, y: height / 2 },
+    1: { x: 400, y: height / 2 },
+    2: { x: 520, y: height / 2 },
+    3: { x: 680, y: height / 2 },
+    4: { x: 810, y: height / 2 },
+    5: { x: 900, y: height / 2 }
+  };
+
+  var geldbezahlenTitleX = { // X locations of the year titles.
+    'Verzichtet auf die App': 130,
+    'Zahlt 1-2 CHF': 400,
+    'Zahlt 3-5 CHF': 640,
+    'Zahlt 6-10 CHF': 800,
+    'Zahlt 11-20 CHF': 940,
+    'Zahlt mehr als 20 CHF': 940
   };
        
     
@@ -265,6 +299,8 @@ var cookiesCenters = { // Center locations of the bubbles.
        sorgen: d.sorgenbarometer,
       
         cookies: d.cookies,
+       sorgenalter: d.sorgenbarometeralter,
+       geldbezahlen: d.bezahlen,
         
         x: Math.random() * 900,
         y: Math.random() * 800
@@ -363,6 +399,8 @@ var cookiesCenters = { // Center locations of the bubbles.
     hideScreentime();
     hideSorgen();
     hideCookies();
+    hideSorgenalter();
+    hideGeldbezahlen();
 
     
     force.on('tick', function (e) {
@@ -407,6 +445,8 @@ Die Positionierung basiert auf dem alpha Parameter des force layouts und wird kl
     hideScreentime();
    hideSorgen();
    hideCookies();
+   hideSorgenalter();
+   hideGeldbezahlen();
 
 
     force.on('tick', function (e) {
@@ -457,6 +497,8 @@ function moveToYear(alpha) {
     hideScreentime();
    hideSorgen();
    hideCookies();
+   hideSorgenalter();
+   hideGeldbezahlen();
   
 
 
@@ -508,6 +550,8 @@ function moveToAgecat(alpha) {
     hideScreentime();
     hideSorgen();
     hideCookies();
+    hideSorgenalter();
+    hideGeldbezahlen();
 
 
     force.on('tick', function (e) {
@@ -558,6 +602,8 @@ function moveToAgecat(alpha) {
     hideAgecat();
     hideSorgen();
     hideCookies();
+    hideSorgenalter();
+    hideGeldbezahlen();
 
 
     force.on('tick', function (e) {
@@ -607,6 +653,8 @@ function moveToAgecat(alpha) {
     hideAgecat();
     hideScreentime();
     hideCookies();
+    hideSorgenalter();
+    hideGeldbezahlen();
 
 
     force.on('tick', function (e) {
@@ -656,6 +704,8 @@ function moveToAgecat(alpha) {
     hideAgecat();
     hideScreentime();
     hideSorgen();
+    hideSorgenalter();
+    hideGeldbezahlen();
 
 
     force.on('tick', function (e) {
@@ -692,6 +742,107 @@ function moveToAgecat(alpha) {
       .attr('text-anchor', 'middle')
       .text(function (d) { return d; });
     }  
+   //* ------------------------------------------------------------------
+//
+// Sorgen-Alter
+//
+// -----------------------------------------------------------------*/
+    
+  function splitBubblesintoSorgenalter() {
+    showSorgenalter();
+    hideYear();
+    hideSex();
+    hideAgecat();
+    hideScreentime();
+    hideSorgen();
+    hideCookies();
+    hideGeldbezahlen();
+
+
+    force.on('tick', function (e) {
+      bubbles.each(moveToSorgenalter(e.alpha))
+        .attr('cx', function (d) { return d.x; })
+        .attr('cy', function (d) { return d.y; });
+    });
+
+    force.start();
+  }
+
+  function moveToSorgenalter(alpha) {
+    return function (d) {
+      var target = sorgenalterCenters[d.sorgenalter];
+      d.x = d.x + (target.x - d.x) * damper * alpha * 1.1;
+      d.y = d.y + (target.y - d.y) * damper * alpha * 1.1;
+    };
+  }
+
+  function hideSorgenalter() {
+    svg.selectAll('.sorgenalter').remove();
+  }
+
+  function showSorgenalter() {
+
+    var sorgenalterData = d3.keys(sorgenalterTitleX);
+    var sorgenalter = svg.selectAll('.sorgenalter')
+      .data(sorgenalterData);
+
+    sorgenalter.enter().append('text')
+      .attr('class', 'sorgenalter')
+      .attr('x', function (d) { return sorgenalterTitleX[d]; })
+      .attr('y', 65)
+      .attr('text-anchor', 'middle')
+      .text(function (d) { return d; });
+    }
+  
+  // Geld-bezahlen
+//
+// -----------------------------------------------------------------*/
+    
+  function splitBubblesintoGeldbezahlen() {
+    showGeldbezahlen();
+    hideYear();
+    hideSex();
+    hideAgecat();
+    hideScreentime();
+    hideSorgen();
+    hideCookies();
+    hideSorgenalter();
+
+
+    force.on('tick', function (e) {
+      bubbles.each(moveToGeldbezahlen(e.alpha))
+        .attr('cx', function (d) { return d.x; })
+        .attr('cy', function (d) { return d.y; });
+    });
+
+    force.start();
+  }
+
+  function moveToGeldbezahlen(alpha) {
+    return function (d) {
+      var target = geldbezahlenCenters[d.geldbezahlen];
+      d.x = d.x + (target.x - d.x) * damper * alpha * 1.1;
+      d.y = d.y + (target.y - d.y) * damper * alpha * 1.1;
+    };
+  }
+
+  function hideGeldbezahlen() {
+    svg.selectAll('.geldbezahlen').remove();
+  }
+
+  function showGeldbezahlen() {
+
+    var geldbezahlenData = d3.keys(geldbezahlenTitleX);
+    var geldbezahlen = svg.selectAll('.geldbezahlen')
+      .data(geldbezahlenData);
+
+    geldbezahlen.enter().append('text')
+      .attr('class', 'geldbezahlen')
+      .attr('x', function (d) { return geldbezahlenTitleX[d]; })
+      .attr('y', 65)
+      .attr('text-anchor', 'middle')
+      .text(function (d) { return d; });
+    } 
   
     
     
@@ -722,6 +873,10 @@ function moveToAgecat(alpha) {
       splitBubblesintoScreentime();
     } else if (displayName === 'sorgen') {
       splitBubblesintoSorgen();
+          } else if (displayName === 'sorgenalter') {
+      splitBubblesintoSorgenalter();
+     } else if (displayName === 'geldbezahlen') {
+      splitBubblesintoGeldbezahlen();
       } else if (displayName === 'cookies') {
       splitBubblesintoCookies();
     } else {
@@ -775,6 +930,12 @@ function moveToAgecat(alpha) {
                   '</span><br/>' +
                   '<span class="name">Ich lösche meine Cookies </span><span class="value">' +
                   d.cookies +
+                  '</span><br/>' +
+                  '<span class="name">Ich mache mir sorgen um meine Daten und bin </span><span class="value">' +
+                  d.sorgenalter +
+                  '</span><br/>' +
+                  '<span class="name">Ich würde maximal... zahlen </span><span class="value">' +
+                  d.geldbezahlen +
                   '</span><br/>' +
                   '<span class="name">"Umfragejahr": </span><span class="value">' +
                   d.year +
