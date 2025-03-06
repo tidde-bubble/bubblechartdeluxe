@@ -22,7 +22,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #56CBF9;
+    color: #7798AB;
 }
 
 
@@ -38,7 +38,7 @@ p {
 
 /* Links */
 a {
-    color: #56CBF9;
+    color: #7798AB;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -119,21 +119,21 @@ a:after {
 
 @media (min-width:641px) {
     #headerwrap h1 {
-	color: #56CBF9;
+	color: #7798AB;
 	font-size: 70px;
 }
 }
 
 @media (min-width:961px) {
     #headerwrap h1 {
-	color: #56CBF9;
+	color: #7798AB;
 	font-size: 90px;
 }
 }
 
 @media (min-width:1025px) {
     #headerwrap h1 {
-	color: #56CBF9;
+	color: #7798AB;
 	font-size: 110px;
 }
 }
@@ -195,7 +195,7 @@ a:after {
 
 
 #portfoliowrap h3 {
-	color: #56CBF9;
+	color: #7798AB;
 }
 
 .port-space {
@@ -227,12 +227,12 @@ a:after {
 
 #w h3 {
 	font-weight: 700;
-	color: #56CBF9;
+	color: #7798AB;
 	letter-spacing: 1px;
 }
 
 #w bold {
-	color: #56CBF9;
+	color: #7798AB;
 }
 
 
@@ -280,7 +280,7 @@ a:after {
 }
 
 #f h3 b {
-	color: #56CBF9;	
+	color: #7798AB;	
 }
 
 #f i {
@@ -394,12 +394,12 @@ a:after {
 	letter-spacing: 0.15em;
 	line-height: 40px;
 	text-transform: uppercase;
-	color: #56CBF9;
+	color: #7798AB;
 	margin-top: 20px;
 }
 
 .menu h1.logo a:hover {
-	color: #56CBF9;
+	color: #7798AB;
 }
 
 .menu img.logo {

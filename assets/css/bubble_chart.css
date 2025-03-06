@@ -11,7 +11,7 @@
 /*-------------------------------------*/
 
 a, a:visited, a:active {
-  color: #CD003C;
+  color: #7798AB
 }
 
 .text_footer {
@@ -60,7 +60,7 @@ height: 70px;
 }
 
 .button.active {
-  background: #CD003C;
+  background: #7798AB;
   color: #fff;
 }
 

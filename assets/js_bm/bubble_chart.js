@@ -213,21 +213,33 @@ var sorgenalterCenters = { // Center locations of the bubbles.
   // Achter Button: Geld bezahlen  
  
 var geldbezahlenCenters = { // Center locations of the bubbles.
-    0: { x: 280, y: height / 2 },
-    1: { x: 400, y: height / 2 },
-    2: { x: 520, y: height / 2 },
-    3: { x: 680, y: height / 2 },
-    4: { x: 810, y: height / 2 },
-    5: { x: 900, y: height / 2 }
+    0: { x: 275, y: height / 2 },
+    1: { x: 350, y: height / 2 },
+    2: { x: 450, y: height / 2 },
+    3: { x: 550, y: height / 2 },
+    4: { x: 675, y: height / 2 },
+    5: { x: 800, y: height / 2 }
   };
 
   var geldbezahlenTitleX = { // X locations of the year titles.
-    'Verzichtet auf die App': 130,
-    'Zahlt 1-2 CHF': 400,
-    'Zahlt 3-5 CHF': 640,
-    'Zahlt 6-10 CHF': 800,
-    'Zahlt 11-20 CHF': 940,
+    'Verzichtet auf die App': 140,
+    'Zahlt 1-2 CHF': 325,
+    'Zahlt 3-5 CHF': 470,
+    'Zahlt 6-10 CHF': 625,
+    'Zahlt 11-20 CHF': 775,
     'Zahlt mehr als 20 CHF': 940
+  };
+   // Neunter Button: Cookies   
+ 
+var whatsappCenters = { // Center locations of the bubbles.
+    1: { x: 400, y: height / 1.85 },
+    2: { x: 600, y: height / 1.85},
+  };
+
+  var whatsappTitleX = { // X locations of the year titles.
+    
+    'Nutzt Whatsapp': 400,
+    'Nutzt kein Whatsapp': 800,
   };
        
     
@@ -301,6 +313,7 @@ var geldbezahlenCenters = { // Center locations of the bubbles.
         cookies: d.cookies,
        sorgenalter: d.sorgenbarometeralter,
        geldbezahlen: d.bezahlen,
+      whatsapp: d.nutztwhatsapp,
         
         x: Math.random() * 900,
         y: Math.random() * 800
@@ -401,6 +414,7 @@ var geldbezahlenCenters = { // Center locations of the bubbles.
     hideCookies();
     hideSorgenalter();
     hideGeldbezahlen();
+    hideWhatsapp();
 
     
     force.on('tick', function (e) {
@@ -447,6 +461,7 @@ Die Positionierung basiert auf dem alpha Parameter des force layouts und wird kl
    hideCookies();
    hideSorgenalter();
    hideGeldbezahlen();
+   hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -499,6 +514,7 @@ function moveToYear(alpha) {
    hideCookies();
    hideSorgenalter();
    hideGeldbezahlen();
+   hideWhatsapp();
   
 
 
@@ -552,6 +568,7 @@ function moveToAgecat(alpha) {
     hideCookies();
     hideSorgenalter();
     hideGeldbezahlen();
+    hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -604,6 +621,7 @@ function moveToAgecat(alpha) {
     hideCookies();
     hideSorgenalter();
     hideGeldbezahlen();
+    hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -655,6 +673,7 @@ function moveToAgecat(alpha) {
     hideCookies();
     hideSorgenalter();
     hideGeldbezahlen();
+    hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -706,6 +725,7 @@ function moveToAgecat(alpha) {
     hideSorgen();
     hideSorgenalter();
     hideGeldbezahlen();
+    hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -757,6 +777,7 @@ function moveToAgecat(alpha) {
     hideSorgen();
     hideCookies();
     hideGeldbezahlen();
+    hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -793,6 +814,56 @@ function moveToAgecat(alpha) {
       .attr('text-anchor', 'middle')
       .text(function (d) { return d; });
     }
+  // Whatsapp
+//
+// -----------------------------------------------------------------*/
+    
+  function splitBubblesintoWhatsapp() {
+    showWhatsapp();
+    hideYear();
+    hideSex();
+    hideAgecat();
+    hideScreentime();
+    hideSorgen();
+    hideCookies();
+    hideGeldbezahlen();
+    hideSorgenalter();
+
+
+    force.on('tick', function (e) {
+      bubbles.each(moveToWhatsapp(e.alpha))
+        .attr('cx', function (d) { return d.x; })
+        .attr('cy', function (d) { return d.y; });
+    });
+
+    force.start();
+  }
+
+  function moveToWhatsapp(alpha) {
+    return function (d) {
+      var target = whatsappCenters[d.whatsapp];
+      d.x = d.x + (target.x - d.x) * damper * alpha * 1.1;
+      d.y = d.y + (target.y - d.y) * damper * alpha * 1.1;
+    };
+  }
+
+  function hideWhatsapp() {
+    svg.selectAll('.whatsapp').remove();
+  }
+
+  function showWhatsapp() {
+
+    var whatsappData = d3.keys(whatsappTitleX);
+    var whatsapp = svg.selectAll('.whatsapp')
+      .data(whatsappData);
+
+    whatsapp.enter().append('text')
+      .attr('class', 'whatsapp')
+      .attr('x', function (d) { return whatsappTitleX[d]; })
+      .attr('y', 65)
+      .attr('text-anchor', 'middle')
+      .text(function (d) { return d; });
+    }
   
   // Geld-bezahlen
 //
@@ -807,6 +878,7 @@ function moveToAgecat(alpha) {
     hideSorgen();
     hideCookies();
     hideSorgenalter();
+    hideWhatsapp();
 
 
     force.on('tick', function (e) {
@@ -818,13 +890,21 @@ function moveToAgecat(alpha) {
     force.start();
   }
 
-  function moveToGeldbezahlen(alpha) {
+ function moveToGeldbezahlen(alpha) {
     return function (d) {
-      var target = geldbezahlenCenters[d.geldbezahlen];
-      d.x = d.x + (target.x - d.x) * damper * alpha * 1.1;
-      d.y = d.y + (target.y - d.y) * damper * alpha * 1.1;
+        // Überprüfen, ob d.geldbezahlen gültig ist und in geldbezahlenCenters existiert
+        var target = geldbezahlenCenters[d.geldbezahlen];
+
+        // Falls target undefiniert ist, eine Standardposition bereitstellen (z. B. die Mitte des Diagramms)
+        if (!target) {
+            target = { x: center.x, y: center.y };
+        }
+
+        // Bewege die Blase in Richtung der Zielposition
+        d.x = d.x + (target.x - d.x) * damper * alpha * 1.1;
+        d.y = d.y + (target.y - d.y) * damper * alpha * 1.1;
     };
-  }
+}
 
   function hideGeldbezahlen() {
     svg.selectAll('.geldbezahlen').remove();
@@ -877,6 +957,8 @@ function moveToAgecat(alpha) {
       splitBubblesintoSorgenalter();
      } else if (displayName === 'geldbezahlen') {
       splitBubblesintoGeldbezahlen();
+     } else if (displayName === 'whatsapp') {
+      splitBubblesintoWhatsapp();
       } else if (displayName === 'cookies') {
       splitBubblesintoCookies();
     } else {
@@ -935,6 +1017,9 @@ function moveToAgecat(alpha) {
                   '</span><br/>' +
                   '<span class="name">Ich würde maximal... zahlen </span><span class="value">' +
                   d.geldbezahlen +
+                  '</span><br/>' +
+                  '<span class="name">Nutzt Whatsapp </span><span class="value">' +
+                  d.whatsapp +
                   '</span><br/>' +
                   '<span class="name">"Umfragejahr": </span><span class="value">' +
                   d.year +
