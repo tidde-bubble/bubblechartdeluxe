@@ -909,13 +909,12 @@ function moveToAgecat(alpha) {
 
   var fillColor = d3.scale.ordinal()
     .domain(['1','2','3', '4','5','6'])
-    .range(['#F7CAD0', '#ff006e', '#48CAE4', '#0096C7','#023E8A','#03045E']);
+    .range(['#C8C8C8', '#B3B3B3', '#BBB891', '#DC965A','#805D40','#242325']);
 
   /* Tooltip-Funktion*/
   function showDetail(d) {
 
     d3.select(this).attr('stroke', 'black');
-
     var content = '<span class="name">Alter: </span><span class="value">' +
                   d.age +
                   '</span><br/>' +
